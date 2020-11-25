@@ -177,10 +177,11 @@
 <li>安装hexo：cnpm install -g hexo-cli</li>
 <li>新建一个文件夹作为本地文件保存地方（如e:\blog）</li>
 <li>初始化博客：hexo init e:\blog</li>
-<li>浏览器输入 localhost:4000可以查看生成的本地博客<br><font color=red>error:如果打不开链接，可能是端口4000被占用，更改端口地址：在e:\blog文件夹下打开git bash,输入npm install hexo-server安装服务端,再输入hexo server –p 5000将端口地址改为5000，安装服务端后可以在git bash通过hexo -s查看hexo的端口，或者直接关掉其他软件就是了<font color=black>
-#### 二、部署到远端</li>
+<li>浏览器输入 localhost:4000可以查看生成的本地博客<br><font color=red>error:如果打不开链接，可能是端口4000被占用，更改端口地址：在e:\blog文件夹下打开git bash,输入npm install hexo-server安装服务端,再输入hexo server –p 5000将端口地址改为5000，安装服务端后可以在git bash通过hexo -s查看hexo的端口，或者直接关掉其他软件就是了<font color=black></li>
+</ol>
+<h4 id="二、部署到远端"><a href="#二、部署到远端" class="headerlink" title="二、部署到远端"></a>二、部署到远端</h4><ol>
 <li>安装git插件：cnpm install hexo-deployer-git –save</li>
-<li>github新建一个和你名字一样的仓库<br><img src="E:\blog\捕获.png" alt="新建仓库"></li>
+<li>github新建一个和你名字一样的仓库</li>
 <li>记事本打开_config.yml文件<br>找到#deployment(注意冒号后面有空格，不能缺省)<br>添加：<br>type: git<br>repo: (你的github地址)<br>branch: master</li>
 <li>输入git config –global user.email “你的git账号邮箱”和git config –global user.name “你的git账号名字”</li>
 <li>输入hexo d<br>##参考文献<br><a target="_blank" rel="noopener" href="https://www.bilibili.com/video/BV1Yb411a7ty?from=search&amp;seid=4984723434271187981">https://www.bilibili.com/video/BV1Yb411a7ty?from=search&amp;seid=4984723434271187981</a></li>
